@@ -1,0 +1,33 @@
+.intro_page{
+   display: flex;
+   padding: 1.6em;
+   max-height: 80vh;
+   align-items: center;
+}
+.intro_page p{
+   font-weight: 800;
+   font-size: 3rem;
+}
+.intro_page img{
+   padding-right: 5em;
+   min-height: 30vh;
+}
+.intro_page button{
+  font-weight: 600;
+  padding: 0.8em 5em;
+  text-align: center;
+  margin-left: 1em;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #0065FF;
+  font-size: 1.3rem;
+  color:#fff;
+  border: 0;
+}
+.container-dic{
+   display: flex;
+   min-height: 100%;
+   margin: 0 auto;
+   justify-content: space-around;
+}
+

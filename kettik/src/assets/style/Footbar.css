@@ -1,0 +1,27 @@
+footer{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 80em;
+        margin: 3em auto;
+        padding: 0.7em;
+}
+li{
+        list-style-type: none;
+        margin-right: 1em;
+        font-size: 1.3rem ;  
+        
+}
+.above-links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.under-links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.under-links ul li{
+        margin-left: 5em;
+}

@@ -1,0 +1,72 @@
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 80em;
+   margin: 0 auto;
+   padding: 0.7em;
+   border-bottom: 1px solid #96C0FF;
+}
+
+ul{
+   display: flex;
+   align-items: center;
+}
+ul li{
+   list-style-type: none;
+   margin-right: 1em;
+   font-size: 1.3rem ;  
+}
+
+ul li a{
+   text-decoration: none;
+   color: black;
+}
+ul li a:hover{
+   color: #0065FF ;
+   transition: 0.2s;
+   transform: translateY(-5px);
+}
+
+.logo-place, .place{
+   display: flex;
+   padding-left: 0.25em;
+}
+
+select{
+   color: #96C0FF;
+   background-color: white;
+   font-size: 0.8rem;
+   appearance: none;
+   border: 0;
+   padding-left: 1em;
+}
+option{
+   width: 3em;
+   padding: 1em;
+}
+
+.place{
+   position: relative;
+   margin-left: 1.8em;
+}
+.place > img{
+   display: block;
+   position: absolute;
+   width: 0.8em;
+   top: 0.6em;
+   left: 0;
+   pointer-events: none;
+}
+#lang-button{
+   font-size: 1.1rem;
+   color: #0065FF;
+   cursor: pointer;
+}
+.icons-nav{
+   display: flex;
+   justify-content: space-around
+}
+
+/* --Search-- */
+

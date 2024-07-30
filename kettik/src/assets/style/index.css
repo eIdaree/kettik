@@ -1,0 +1,12 @@
+:root{
+   color: #0065FF ;
+   font-family: nunito;
+}
+@font-face {
+   font-family: nunito;
+   src: url(../fonts/nunito.ttf);
+}
+.container{
+   max-width: 90em;
+   margin: 0 auto;
+}
